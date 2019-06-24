@@ -18,8 +18,8 @@
 
 ### 評分標準
 
-- 擇一上傳修課證明即可獲得證書
-- [313 期作業上傳表單]()
+- 作業擇一上傳修課證明（截圖、檔案）即可獲得證書
+- [313 期作業上傳表單](https://forms.gle/ehFY6h9auEVBSUC19)
 - 繳交期限為課程結束後一週內，如遇長假期（春節、連假）則順延
 
 |作業編號|作業連結|作業分數|
@@ -33,11 +33,13 @@
 
     - [關於](00-about.slides.html)
     - [起步走](01-getting-started.slides.html)
-    - [向量](02-data-types.slides.html)
+    - [運算符與向量](02-operators-and-basic-vector-types.slides.html)
     - [流程控制：條件判斷](03-control-flow-conditionals.slides.html)
-    - [流程控制：迴圈](04-control-flow-while.slides.html)
-    - [其他資料結構](05-other-data-structures.slides.html)
-    - [程式封裝：自訂函數](06-code-packaging-functions.slides.html)
+    - [流程控制：while 迴圈](04-control-flow-while.slides.html)
+    - [向量操作](05-vector-manipulation.slides.html)
+    - [流程控制：for 迴圈]()
+    - [其他資料結構]()
+    - [程式封裝：自訂函數]()
 
 - R 與資料科學應用
     - [資料輸入輸出]()
