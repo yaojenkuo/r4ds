@@ -37,7 +37,7 @@
     - [流程控制：條件判斷](03-control-flow-conditionals.slides.html)
     - [流程控制：while 迴圈](04-control-flow-while.slides.html)
     - [向量操作](05-vector-manipulation.slides.html)
-    - [流程控制：for 迴圈]()
+    - [流程控制：for 迴圈](06-control-flow-for.slides.html)
     - [其他資料結構]()
     - [程式封裝：自訂函數]()
 
