@@ -4,6 +4,8 @@
 
 這是[郭耀仁](https://www.facebook.com/yaojen.kuo.1)在[台灣大學資訊工程學系資訊系統訓練班](https://www.csie.ntu.edu.tw/train/)所開設的 R 程式設計與資料科學應用課程網頁，課程時數 30 小時。
 
+Contact me: <tony@kyosei.ai>
+
 ### 上課互動工具
 
 <https://www.sli.do/>
@@ -38,7 +40,7 @@
     - [流程控制：while 迴圈](04-control-flow-while.slides.html)
     - [向量操作](05-vector-manipulation.slides.html)
     - [流程控制：for 迴圈](06-control-flow-for.slides.html)
-    - [其他資料結構]()
+    - [其他資料結構](07-other-data-structures.slides.html)
     - [程式封裝：自訂函數]()
 
 - R 與資料科學應用
