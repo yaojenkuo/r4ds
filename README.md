@@ -41,7 +41,7 @@ Contact me: <tony@kyosei.ai>
     - [向量操作](05-vector-manipulation.slides.html)
     - [流程控制：for 迴圈](06-control-flow-for.slides.html)
     - [其他資料結構](07-other-data-structures.slides.html)
-    - [程式封裝：自訂函數]()
+    - [程式封裝：自訂函數](08-functions.slides.html)
 
 - R 與資料科學應用
     - [資料輸入輸出]()
