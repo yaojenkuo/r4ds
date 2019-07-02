@@ -44,7 +44,7 @@ Contact me: <tony@kyosei.ai>
     - [程式封裝：自訂函數](08-functions.slides.html)
 
 - R 與資料科學應用
-    - [資料輸入輸出]()
+    - [資料輸入輸出](09-data-io.slides.html)
     - [資料處理]()
     - [資料視覺化]()
     - [網頁爬蟲]()
