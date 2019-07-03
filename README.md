@@ -12,6 +12,7 @@ Contact me: <tony@kyosei.ai>
 
 ### 上課共筆
 
+- [318 期夜間班](https://colab.research.google.com/drive/1T7msK6WoELlaM61B_ygwHz5GLWMzTCVG)
 - [313 期暑期密集班](https://colab.research.google.com/drive/1fTmlikQzTh2VO64dM8VeLJf4_BPniEBu)
 
 ### Facebook 社團
@@ -20,8 +21,9 @@ Contact me: <tony@kyosei.ai>
 
 ### 評分標準
 
-- 作業擇一上傳修課證明（截圖、檔案）即可獲得證書
-- [313 期作業上傳表單](https://forms.gle/ehFY6h9auEVBSUC19)
+- 擇一上傳修課證明（截圖、檔案）即可獲得證書
+    - [318 期作業上傳表單](https://forms.gle/sZCUe2oudsvosB4U9)
+    - [313 期作業上傳表單](https://forms.gle/ehFY6h9auEVBSUC19)
 - 繳交期限為課程結束後一週內，如遇長假期（春節、連假）則順延
 
 |作業編號|作業連結|作業分數|
@@ -31,7 +33,7 @@ Contact me: <tony@kyosei.ai>
 
 ### 課程大綱
 
-- R 程式設計
+- 程式設計
 
     - [關於](00-about.slides.html)
     - [起步走](01-getting-started.slides.html)
@@ -43,7 +45,7 @@ Contact me: <tony@kyosei.ai>
     - [其他資料結構](07-other-data-structures.slides.html)
     - [程式封裝：自訂函數](08-functions.slides.html)
 
-- R 與資料科學應用
+- 資料科學應用
     - [資料輸入輸出](09-data-io.slides.html)
     - [資料框處理](10-dataframe-manipulation.slides.html)
     - [資料視覺化]()
@@ -54,9 +56,12 @@ Contact me: <tony@kyosei.ai>
 - [輕鬆學習 R 語言](https://www.datainpoint.com/r-essentials/)
 - [輕鬆學習 R 語言@Medium](https://medium.com/datainpoint/r-essentials/home)
 - [DataCamp](https://www.datacamp.com/courses/tech:python?tap_a=5644-dce66f&tap_s=194899-1fb421)
+- [Advanced R](https://adv-r.hadley.nz/)
+- [R for Data Science](https://r4ds.had.co.nz/)
 
 ### 近期課程錄影清單
 
+- [第 318 期 R 語言程式設計與資料科學應用（夜間班）]()
 - [第 313 期 R 語言程式設計與資料科學應用（暑期密集班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVD43REeVE4lIIFq4INd3l-)
 - [第 310 期 R 語言與資料科學應用（夜間班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuWhTkC4bL8txz9xlZPD93XM)
 - [第 308 期 R 語言與資料科學應用（寒密班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuXJerOau2Yzcra6QPukcPKf)
