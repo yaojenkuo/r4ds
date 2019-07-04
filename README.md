@@ -48,7 +48,7 @@ Contact me: <tony@kyosei.ai>
 - 資料科學應用
     - [資料輸入輸出](09-data-io.slides.html)
     - [資料框處理](10-dataframe-manipulation.slides.html)
-    - [資料視覺化]()
+    - [資料視覺化](11-data-visualization.slides.html)
     - [網頁爬蟲]()
 
 ### 延伸閱讀
