@@ -13613,6 +13613,7 @@ a.anchor-link {
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="n">movie_url</span> <span class="o">&lt;-</span> <span class="s">&quot;https://www.imdb.com/title/tt4154796&quot;</span>
 <span class="n">endgame_movie_info</span> <span class="o">&lt;-</span> <span class="nf">get_movie_info</span><span class="p">(</span><span class="n">movie_url</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">endgame_movie_info</span><span class="o">$</span><span class="n">title</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="n">endgame_movie_info</span><span class="o">$</span><span class="n">rating</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="n">endgame_movie_info</span><span class="o">$</span><span class="n">genre</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="n">endgame_movie_info</span><span class="o">$</span><span class="n">posterLink</span><span class="p">)</span>
@@ -13633,7 +13634,8 @@ a.anchor-link {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[1] 8.7
+<pre>[1] &#34;Avengers: Endgame (2019)&#34;
+[1] 8.7
 [1] &#34;Action&#34;    &#34;Adventure&#34; &#34;Sci-Fi&#34;   
 [1] &#34;https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL_.jpg&#34;
  [1] &#34;Robert Downey Jr.&#34;    &#34;Chris Evans&#34;          &#34;Mark Ruffalo&#34;        
@@ -13648,7 +13650,52 @@ a.anchor-link {
 </div>
 </div>
 
-</div></div></section></section>
+</div></div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="n">movie_url</span> <span class="o">&lt;-</span> <span class="s">&quot;https://www.imdb.com/title/tt6320628/&quot;</span>
+<span class="n">spiderman_movie_info</span> <span class="o">&lt;-</span> <span class="nf">get_movie_info</span><span class="p">(</span><span class="n">movie_url</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">spiderman_movie_info</span><span class="o">$</span><span class="n">title</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">spiderman_movie_info</span><span class="o">$</span><span class="n">rating</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">spiderman_movie_info</span><span class="o">$</span><span class="n">genre</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">spiderman_movie_info</span><span class="o">$</span><span class="n">posterLink</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">spiderman_movie_info</span><span class="o">$</span><span class="n">cast</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[1] &#34;Spider-Man: Far from Home (2019)&#34;
+[1] 8.2
+[1] &#34;Action&#34;    &#34;Adventure&#34; &#34;Sci-Fi&#34;   
+[1] &#34;https://m.media-amazon.com/images/M/MV5BMGZlNTY1ZWUtYTMzNC00ZjUyLWE0MjQtMTMxN2E3ODYxMWVmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg&#34;
+ [1] &#34;Tom Holland&#34;         &#34;Samuel L. Jackson&#34;   &#34;Jake Gyllenhaal&#34;    
+ [4] &#34;Marisa Tomei&#34;        &#34;Jon Favreau&#34;         &#34;Zendaya&#34;            
+ [7] &#34;Jacob Batalon&#34;       &#34;Tony Revolori&#34;       &#34;Angourie Rice&#34;      
+[10] &#34;Remy Hii&#34;            &#34;Martin Starr&#34;        &#34;J.B. Smoove&#34;        
+[13] &#34;Jorge Lendeborg Jr.&#34; &#34;Cobie Smulders&#34;      &#34;Numan Acar&#34;         
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section>
 </div>
 </div>
 
