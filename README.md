@@ -61,7 +61,7 @@ Contact me: <tony@kyosei.ai>
 
 ### 近期課程錄影清單
 
-- [第 318 期 R 語言程式設計與資料科學應用（夜間班）]()
+- [第 318 期 R 語言程式設計與資料科學應用（夜間班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVp7Ja4d4JqXVIsSiSUDXwo)
 - [第 313 期 R 語言程式設計與資料科學應用（暑期密集班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVD43REeVE4lIIFq4INd3l-)
 - [第 310 期 R 語言與資料科學應用（夜間班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuWhTkC4bL8txz9xlZPD93XM)
 - [第 308 期 R 語言與資料科學應用（寒密班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuXJerOau2Yzcra6QPukcPKf)
