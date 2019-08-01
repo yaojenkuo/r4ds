@@ -13287,15 +13287,12 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="for-&#36852;&#22280;&#30340;-Code-Block"><code>for</code> &#36852;&#22280;&#30340; Code Block<a class="anchor-link" href="#for-&#36852;&#22280;&#30340;-Code-Block">&#182;</a></h2><ul>
-<li>保留字 <code>for</code>, <code>in</code></li>
-<li>ITERATOR 的名稱</li>
-<li>ITERABLE 的名稱</li>
+<li>保留字 <code>for</code> 與 <code>in</code></li>
+<li>ITERATOR 迭代子</li>
+<li>ITERABLE 可迭代的物件</li>
 <li>重複任務</li>
 </ul>
-<div class="highlight"><pre><span></span><span class="nf">for </span><span class="p">(</span><span class="n">ITERATOR</span> <span class="n">in</span> <span class="n">ITERABLE</span><span class="p">)</span> <span class="p">{</span>
-  <span class="c1"># do something iteratively until ITERATOR hits the end of ITERABLE</span>
-<span class="p">}</span>
-</pre></div>
+<p><img src="https://i.imgur.com/YlkECxS.png" alt="Imgur"></p>
 
 </div>
 </div>
@@ -13974,7 +13971,7 @@ a.anchor-link {
 
 
 <div class="output_html rendered_html output_subarea ">
-38
+17
 </div>
 
 </div>
@@ -13988,42 +13985,92 @@ a.anchor-link {
 <div class="output_html rendered_html output_subarea ">
 <ol class=list-inline>
 	<li>4</li>
+	<li>2</li>
 	<li>1</li>
-	<li>4</li>
-	<li>4</li>
-	<li>1</li>
-	<li>4</li>
 	<li>1</li>
 	<li>5</li>
-	<li>4</li>
-	<li>1</li>
 	<li>2</li>
-	<li>4</li>
-	<li>2</li>
-	<li>1</li>
-	<li>5</li>
-	<li>3</li>
-	<li>1</li>
-	<li>4</li>
-	<li>2</li>
-	<li>5</li>
-	<li>1</li>
-	<li>1</li>
-	<li>1</li>
-	<li>2</li>
-	<li>4</li>
-	<li>3</li>
 	<li>4</li>
 	<li>6</li>
+	<li>4</li>
 	<li>3</li>
-	<li>2</li>
-	<li>5</li>
-	<li>4</li>
-	<li>4</li>
-	<li>6</li>
+	<li>3</li>
 	<li>1</li>
-	<li>4</li>
+	<li>2</li>
+	<li>1</li>
 	<li>3</li>
+	<li>6</li>
+	<li>6</li>
+</ol>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#38568;&#22530;&#32244;&#32722;&#65306;&#25237;&#25842;&#19968;&#20491;&#20844;&#27491;&#39600;&#23376;&#65292;&#32317;&#20849;&#35201;&#25237;&#24190;&#27425;&#25165;&#33021;&#12300;&#36899;&#32396;&#12301;&#24471;&#21040;&#19977;&#27425;-6-&#40670;&#65311;">&#38568;&#22530;&#32244;&#32722;&#65306;&#25237;&#25842;&#19968;&#20491;&#20844;&#27491;&#39600;&#23376;&#65292;&#32317;&#20849;&#35201;&#25237;&#24190;&#27425;&#25165;&#33021;&#12300;&#36899;&#32396;&#12301;&#24471;&#21040;&#19977;&#27425; 6 &#40670;&#65311;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;&#65306;&#25237;&#25842;&#19968;&#20491;&#20844;&#27491;&#39600;&#23376;&#65292;&#32317;&#20849;&#35201;&#25237;&#24190;&#27425;&#25165;&#33021;&#12300;&#36899;&#32396;&#12301;&#24471;&#21040;&#19977;&#27425;-6-&#40670;&#65311;">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="n">dice</span> <span class="o">&lt;-</span> <span class="m">1</span><span class="o">:</span><span class="m">6</span>
+<span class="n">dice_rolls</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="nf">length</span><span class="p">(</span><span class="n">dice_rolls</span><span class="p">)</span>
+<span class="n">dice_rolls</span><span class="nf">[</span><span class="p">(</span><span class="nf">length</span><span class="p">(</span><span class="n">dice_rolls</span><span class="p">)</span> <span class="o">-</span> <span class="m">2</span><span class="p">)</span><span class="o">:</span><span class="nf">length</span><span class="p">(</span><span class="n">dice_rolls</span><span class="p">)</span><span class="n">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+782
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<ol class=list-inline>
+	<li>6</li>
+	<li>6</li>
 	<li>6</li>
 </ol>
 
@@ -14044,7 +14091,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="n">suits</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&quot;Spade&quot;</span><span class="p">,</span> <span class="s">&quot;Heart&quot;</span><span class="p">,</span> <span class="s">&quot;Diamond&quot;</span><span class="p">,</span> <span class="s">&quot;Club&quot;</span><span class="p">)</span>
@@ -14059,7 +14106,7 @@ a.anchor-link {
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="n">poker_card</span>
