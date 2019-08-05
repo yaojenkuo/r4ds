@@ -13346,7 +13346,7 @@ a.anchor-link {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="m">2</span>
+<div class=" highlight hl-r"><pre><span></span><span class="n">i</span> <span class="o">&lt;-</span> <span class="m">2</span>
 <span class="nf">while </span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;=</span> <span class="m">100</span><span class="p">)</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
     <span class="n">i</span> <span class="o">&lt;-</span> <span class="n">i</span> <span class="o">+</span> <span class="m">2</span>
@@ -13383,8 +13383,8 @@ a.anchor-link {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="m">2</span>
-<span class="n">even_summation</span> <span class="o">=</span> <span class="m">0</span>
+<div class=" highlight hl-r"><pre><span></span><span class="n">i</span> <span class="o">&lt;-</span> <span class="m">2</span>
+<span class="n">even_summation</span> <span class="o">&lt;-</span> <span class="m">0</span>
 
 <span class="nf">while </span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;=</span> <span class="m">100</span><span class="p">)</span> <span class="p">{</span>
     <span class="n">even_summation</span> <span class="o">&lt;-</span> <span class="n">even_summation</span> <span class="o">+</span> <span class="n">i</span>
@@ -13410,15 +13410,16 @@ a.anchor-link {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="m">55</span>
-<span class="n">y</span> <span class="o">=</span> <span class="m">66</span>
-<span class="n">even_counter</span> <span class="o">=</span> <span class="m">0</span>
+<div class=" highlight hl-r"><pre><span></span><span class="n">x</span> <span class="o">&lt;-</span> <span class="m">55</span>
+<span class="n">y</span> <span class="o">&lt;-</span> <span class="m">66</span>
+<span class="n">i</span> <span class="o">&lt;-</span> <span class="n">x</span>
+<span class="n">even_counter</span> <span class="o">&lt;-</span> <span class="m">0</span>
 
-<span class="nf">while </span><span class="p">(</span><span class="n">x</span> <span class="o">&lt;=</span> <span class="m">66</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nf">if </span><span class="p">(</span><span class="n">x</span> <span class="o">%%</span> <span class="m">2</span> <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span>
+<span class="nf">while </span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;=</span> <span class="n">y</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nf">if </span><span class="p">(</span><span class="n">i</span> <span class="o">%%</span> <span class="m">2</span> <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span>
         <span class="n">even_counter</span> <span class="o">&lt;-</span> <span class="n">even_counter</span> <span class="o">+</span> <span class="m">1</span>
     <span class="p">}</span>
-    <span class="n">x</span> <span class="o">&lt;-</span> <span class="n">x</span> <span class="o">+</span> <span class="m">1</span>
+    <span class="n">i</span> <span class="o">&lt;-</span> <span class="n">i</span> <span class="o">+</span> <span class="m">1</span>
 <span class="p">}</span>
 <span class="n">even_counter</span>
 </pre></div>
