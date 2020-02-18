@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,7 +36,7 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 
 <!-- Loading the mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -13069,45 +13068,6 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
-<style type="text/css">
-    
-/* Temporary definitions which will become obsolete with Notebook release 5.0 */
-.ansi-black-fg { color: #3E424D; }
-.ansi-black-bg { background-color: #3E424D; }
-.ansi-black-intense-fg { color: #282C36; }
-.ansi-black-intense-bg { background-color: #282C36; }
-.ansi-red-fg { color: #E75C58; }
-.ansi-red-bg { background-color: #E75C58; }
-.ansi-red-intense-fg { color: #B22B31; }
-.ansi-red-intense-bg { background-color: #B22B31; }
-.ansi-green-fg { color: #00A250; }
-.ansi-green-bg { background-color: #00A250; }
-.ansi-green-intense-fg { color: #007427; }
-.ansi-green-intense-bg { background-color: #007427; }
-.ansi-yellow-fg { color: #DDB62B; }
-.ansi-yellow-bg { background-color: #DDB62B; }
-.ansi-yellow-intense-fg { color: #B27D12; }
-.ansi-yellow-intense-bg { background-color: #B27D12; }
-.ansi-blue-fg { color: #208FFB; }
-.ansi-blue-bg { background-color: #208FFB; }
-.ansi-blue-intense-fg { color: #0065CA; }
-.ansi-blue-intense-bg { background-color: #0065CA; }
-.ansi-magenta-fg { color: #D160C4; }
-.ansi-magenta-bg { background-color: #D160C4; }
-.ansi-magenta-intense-fg { color: #A03196; }
-.ansi-magenta-intense-bg { background-color: #A03196; }
-.ansi-cyan-fg { color: #60C6C8; }
-.ansi-cyan-bg { background-color: #60C6C8; }
-.ansi-cyan-intense-fg { color: #258F8F; }
-.ansi-cyan-intense-bg { background-color: #258F8F; }
-.ansi-white-fg { color: #C5C1B4; }
-.ansi-white-bg { background-color: #C5C1B4; }
-.ansi-white-intense-fg { color: #A1A6B2; }
-.ansi-white-intense-bg { background-color: #A1A6B2; }
-
-.ansi-bold { font-weight: bold; }
-
-    </style>
 
 
 <style type="text/css">
@@ -13382,7 +13342,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="s">&quot;jsonlite&quot;</span><span class="p">)</span>
@@ -13396,6 +13356,25 @@ a.anchor-link {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+'data.frame'
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13406,7 +13385,7 @@ a.anchor-link {
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="n">ans</span>
@@ -13427,7 +13406,7 @@ a.anchor-link {
 
 
 <div class="output_html rendered_html output_subarea ">
-81
+84
 </div>
 
 </div>
@@ -13445,7 +13424,7 @@ a.anchor-link {
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="n">ans</span>
@@ -13469,25 +13448,26 @@ a.anchor-link {
 <table>
 <thead><tr><th scope=col>County</th><th scope=col>SiteName</th></tr></thead>
 <tbody>
-	<tr><td>新北市</td><td>富貴角</td></tr>
-	<tr><td>新北市</td><td>永和  </td></tr>
-	<tr><td>新北市</td><td>三重  </td></tr>
-	<tr><td>臺北市</td><td>陽明  </td></tr>
-	<tr><td>臺北市</td><td>大同  </td></tr>
-	<tr><td>臺北市</td><td>松山  </td></tr>
-	<tr><td>臺北市</td><td>古亭  </td></tr>
-	<tr><td>臺北市</td><td>萬華  </td></tr>
-	<tr><td>臺北市</td><td>中山  </td></tr>
-	<tr><td>臺北市</td><td>士林  </td></tr>
-	<tr><td>新北市</td><td>淡水  </td></tr>
-	<tr><td>新北市</td><td>林口  </td></tr>
-	<tr><td>新北市</td><td>菜寮  </td></tr>
-	<tr><td>新北市</td><td>新莊  </td></tr>
-	<tr><td>新北市</td><td>板橋  </td></tr>
-	<tr><td>新北市</td><td>土城  </td></tr>
-	<tr><td>新北市</td><td>新店  </td></tr>
-	<tr><td>新北市</td><td>萬里  </td></tr>
-	<tr><td>新北市</td><td>汐止  </td></tr>
+	<tr><td>新北市    </td><td>新北(樹林)</td></tr>
+	<tr><td>新北市    </td><td>富貴角    </td></tr>
+	<tr><td>新北市    </td><td>永和      </td></tr>
+	<tr><td>新北市    </td><td>三重      </td></tr>
+	<tr><td>臺北市    </td><td>陽明      </td></tr>
+	<tr><td>臺北市    </td><td>大同      </td></tr>
+	<tr><td>臺北市    </td><td>松山      </td></tr>
+	<tr><td>臺北市    </td><td>古亭      </td></tr>
+	<tr><td>臺北市    </td><td>萬華      </td></tr>
+	<tr><td>臺北市    </td><td>中山      </td></tr>
+	<tr><td>臺北市    </td><td>士林      </td></tr>
+	<tr><td>新北市    </td><td>淡水      </td></tr>
+	<tr><td>新北市    </td><td>林口      </td></tr>
+	<tr><td>新北市    </td><td>菜寮      </td></tr>
+	<tr><td>新北市    </td><td>新莊      </td></tr>
+	<tr><td>新北市    </td><td>板橋      </td></tr>
+	<tr><td>新北市    </td><td>土城      </td></tr>
+	<tr><td>新北市    </td><td>新店      </td></tr>
+	<tr><td>新北市    </td><td>萬里      </td></tr>
+	<tr><td>新北市    </td><td>汐止      </td></tr>
 </tbody>
 </table>
 
@@ -13554,7 +13534,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="s">&quot;rvest&quot;</span><span class="p">)</span>
@@ -13564,6 +13544,29 @@ a.anchor-link {
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<ol class=list-inline>
+	<li>'xml_document'</li>
+	<li>'xml_node'</li>
+</ol>
+
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -13588,7 +13591,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># rating</span>
@@ -13597,6 +13600,27 @@ a.anchor-link {
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+
+<div class="output_text output_subarea ">
+<pre>{xml_nodeset (1)}
+[1] &lt;span itemprop=&#34;ratingValue&#34;&gt;8.5&lt;/span&gt;</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -13610,7 +13634,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># rating</span>
@@ -13624,6 +13648,25 @@ a.anchor-link {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+8.5
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13634,7 +13677,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># poster image link</span>
@@ -13644,6 +13687,25 @@ a.anchor-link {
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+'https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL_.jpg'
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -13657,16 +13719,16 @@ a.anchor-link {
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="n">movie_url</span> <span class="o">&lt;-</span> <span class="s">&quot;https://www.imdb.com/title/tt4154796&quot;</span>
-<span class="n">endgame_movie_info</span> <span class="o">&lt;-</span> <span class="nf">get_movie_info</span><span class="p">(</span><span class="n">movie_url</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">endgame_movie_info</span><span class="o">$</span><span class="n">title</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">endgame_movie_info</span><span class="o">$</span><span class="n">rating</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">endgame_movie_info</span><span class="o">$</span><span class="n">genre</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">endgame_movie_info</span><span class="o">$</span><span class="n">posterLink</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">endgame_movie_info</span><span class="o">$</span><span class="n">cast</span><span class="p">)</span>
+<div class=" highlight hl-r"><pre><span></span><span class="n">movie_url</span> <span class="o">&lt;-</span> <span class="s">&quot;https://www.imdb.com/title/tt7286456&quot;</span>
+<span class="n">joker_movie_info</span> <span class="o">&lt;-</span> <span class="nf">get_movie_info</span><span class="p">(</span><span class="n">movie_url</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">joker_movie_info</span><span class="o">$</span><span class="n">title</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">joker_movie_info</span><span class="o">$</span><span class="n">rating</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">joker_movie_info</span><span class="o">$</span><span class="n">genre</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">joker_movie_info</span><span class="o">$</span><span class="n">posterLink</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">joker_movie_info</span><span class="o">$</span><span class="n">cast</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13683,15 +13745,14 @@ a.anchor-link {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[1] &#34;Avengers: Endgame (2019)&#34;
-[1] 8.7
-[1] &#34;Action&#34;    &#34;Adventure&#34; &#34;Sci-Fi&#34;   
-[1] &#34;https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL_.jpg&#34;
- [1] &#34;Robert Downey Jr.&#34;    &#34;Chris Evans&#34;          &#34;Mark Ruffalo&#34;        
- [4] &#34;Chris Hemsworth&#34;      &#34;Scarlett Johansson&#34;   &#34;Jeremy Renner&#34;       
- [7] &#34;Don Cheadle&#34;          &#34;Paul Rudd&#34;            &#34;Benedict Cumberbatch&#34;
-[10] &#34;Chadwick Boseman&#34;     &#34;Brie Larson&#34;          &#34;Tom Holland&#34;         
-[13] &#34;Karen Gillan&#34;         &#34;Zoe Saldana&#34;          &#34;Evangeline Lilly&#34;    
+<pre>[1] &#34;小丑 (2019)&#34;
+[1] 8.6
+[1] &#34;Crime&#34;    &#34;Drama&#34;    &#34;Thriller&#34;
+[1] &#34;https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg&#34;
+ [1] &#34;Joaquin Phoenix&#34; &#34;Robert De Niro&#34;  &#34;Zazie Beetz&#34;     &#34;Frances Conroy&#34; 
+ [5] &#34;Brett Cullen&#34;    &#34;Shea Whigham&#34;    &#34;Bill Camp&#34;       &#34;Glenn Fleshler&#34; 
+ [9] &#34;Leigh Gill&#34;      &#34;Josh Pais&#34;       &#34;Rocco Luna&#34;      &#34;Marc Maron&#34;     
+[13] &#34;Sondra James&#34;    &#34;Murphy Guyer&#34;    &#34;Douglas Hodge&#34;  
 </pre>
 </div>
 </div>
@@ -13699,52 +13760,7 @@ a.anchor-link {
 </div>
 </div>
 
-</div></div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="n">movie_url</span> <span class="o">&lt;-</span> <span class="s">&quot;https://www.imdb.com/title/tt6320628/&quot;</span>
-<span class="n">spiderman_movie_info</span> <span class="o">&lt;-</span> <span class="nf">get_movie_info</span><span class="p">(</span><span class="n">movie_url</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">spiderman_movie_info</span><span class="o">$</span><span class="n">title</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">spiderman_movie_info</span><span class="o">$</span><span class="n">rating</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">spiderman_movie_info</span><span class="o">$</span><span class="n">genre</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">spiderman_movie_info</span><span class="o">$</span><span class="n">posterLink</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">spiderman_movie_info</span><span class="o">$</span><span class="n">cast</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1] &#34;Spider-Man: Far from Home (2019)&#34;
-[1] 8.2
-[1] &#34;Action&#34;    &#34;Adventure&#34; &#34;Sci-Fi&#34;   
-[1] &#34;https://m.media-amazon.com/images/M/MV5BMGZlNTY1ZWUtYTMzNC00ZjUyLWE0MjQtMTMxN2E3ODYxMWVmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg&#34;
- [1] &#34;Tom Holland&#34;         &#34;Samuel L. Jackson&#34;   &#34;Jake Gyllenhaal&#34;    
- [4] &#34;Marisa Tomei&#34;        &#34;Jon Favreau&#34;         &#34;Zendaya&#34;            
- [7] &#34;Jacob Batalon&#34;       &#34;Tony Revolori&#34;       &#34;Angourie Rice&#34;      
-[10] &#34;Remy Hii&#34;            &#34;Martin Starr&#34;        &#34;J.B. Smoove&#34;        
-[13] &#34;Jorge Lendeborg Jr.&#34; &#34;Cobie Smulders&#34;      &#34;Numan Acar&#34;         
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section></section>
+</div></div></section></section>
 </div>
 </div>
 
